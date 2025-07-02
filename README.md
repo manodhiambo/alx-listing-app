@@ -6,9 +6,9 @@ A modern Airbnb clone built with Next.js, TypeScript, and TailwindCSS. This proj
 
 The ALX Listing App is designed to showcase property listings with a clean, responsive interface. Built as part of the ALX Software Engineering program, this project emphasizes:
 
-- **Type Safety**: Full TypeScript integration for robust development
-- **Component Reusability**: Modular components for scalable architecture
-- **Modern Styling**: TailwindCSS for responsive, utility-first design
+- **Type Safety**: Full TypeScript integration for robust development  
+- **Component Reusability**: Modular components for scalable architecture  
+- **Modern Styling**: TailwindCSS for responsive, utility-first design  
 - **Code Quality**: ESLint configuration for consistent code standards
 
 ## 🏗️ Project Structure
@@ -40,17 +40,17 @@ alx-listing-app/
 
 ### Directory Purpose
 
-- **`components/common/`**: Reusable UI components used throughout the app
-- **`interfaces/`**: Type definitions for props, models, etc.
-- **`constants/`**: Static values like configuration, enums, API URLs
+- **`components/common/`**: Reusable UI components used throughout the app  
+- **`interfaces/`**: Type definitions for props, models, etc.  
+- **`constants/`**: Static values like configuration, enums, API URLs  
 - **`public/assets/`**: Static files like images and icons
 
 ## 🛠️ Technologies Used
 
-- [Next.js 13+](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [ESLint](https://eslint.org/)
+- [Next.js 13+](https://nextjs.org/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [TailwindCSS](https://tailwindcss.com/)  
+- [ESLint](https://eslint.org/)  
 - [React](https://reactjs.org/)
 
 ## 📋 Prerequisites
@@ -67,7 +67,6 @@ Make sure you have the following installed:
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-
 git clone https://github.com/your-username/alx-listing-app.git
 cd alx-listing-app
 
@@ -86,28 +85,29 @@ yarn dev
 
 ## 🎯 Features
 
-### ✅  Implemented
+### ✅ Implemented
 
-- Responsive design with TailwindCSS
-- Reusable Card and Button components
-- Type-safe props and interfaces
-- Scalable file/folder architecture
+- Responsive design with TailwindCSS  
+- Reusable Card and Button components  
+- Type-safe props and interfaces  
+- Scalable file/folder architecture  
 
 ### 🔜 Upcoming
 
-- Property detail view
-- Search and filtering
-- User authentication
-- Booking functionality
-- Host dashboard
-- Payment integration
+- Property detail view  
+- Search and filtering  
+- User authentication  
+- Booking functionality  
+- Host dashboard  
+- Payment integration  
 
 ---
 
-## 🧩  Component Usage
+## 🧩 Component Usage
 
 ### 🃏 Card Component
 
+tsx
 import Card from '../components/common/Card';
 
 <Card
@@ -122,6 +122,7 @@ import Card from '../components/common/Card';
 
 ### 🔘 Button Component
 
+tsx
 import Button from '../components/common/Button';
 
 <Button
@@ -135,20 +136,19 @@ import Button from '../components/common/Button';
 
 ## 🎨 Styling Guidelines
 
-- Use Tailwind utility classes only — no custom CSS unless necessary
-- Mobile-first: always design for small screens first
-- Follow Tailwind's spacing, font, and color systems for consistency
+- Use Tailwind utility classes only — no custom CSS unless necessary  
+- Mobile-first: always design for small screens first  
+- Follow Tailwind's spacing, font, and color systems for consistency  
 - Centralize colors and themes in `tailwind.config.js`
 
 ---
 
 ## 📝 Development Scripts
 
-```bash
+bash
 # Start dev server
 npm run dev
 
-# Build app
 # Build app
 npm run build
 
@@ -164,17 +164,17 @@ npm run type-check
 
 ## 🤝 Contributing
 
-1. **Fork** the repo
-2. **Create your branch**:
-   bash
+1. **Fork** the repo  
+2. **Create your branch**:  
+   ```bash
    git checkout -b feature/amazing-feature
 
 3. **Commit your changes**
-   bash
+   ```bash
    git commit -m 'Add some amazing feature'
 
 4. **Push to the branch**
-   bash
+   ```bash
    git push origin feature/amazing-feature
 
 5. **Open a Pull Request**
@@ -187,7 +187,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 
 ## 👥 Authors
 
-** ALX Student ** – Initial work – [Kevin Odhiambo](https://github.com/manodhiambo)
+**ALX Student** – Initial work – [Kevin Odhiambo](https://github.com/manodhiambo)
 
 ---
 
@@ -201,5 +201,4 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 ---
 
 > Built with ❤️ as part of the **ALX Software Engineering Program**
-
 
