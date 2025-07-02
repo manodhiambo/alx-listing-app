@@ -72,3 +72,125 @@ Make sure you have the following installed:
 git clone https://github.com/your-username/alx-listing-app.git
 cd alx-listing-app
 
+### 2. Install Dependencies
+npm install
+# or
+yarn install
+
+### 3. Run the Development Server
+npm run dev
+# or
+yarn dev
+
+### 4. Open in Browser
+ - Visit http://localhost:3000 in your browser.
+
+## 🎯 Features
+
+### ✅  Implemented
+
+- Responsive design with TailwindCSS
+- Reusable Card and Button components
+- Type-safe props and interfaces
+- Scalable file/folder architecture
+
+### 🔜 Upcoming
+
+- Property detail view
+- Search and filtering
+- User authentication
+- Booking functionality
+- Host dashboard
+- Payment integration
+
+---
+
+## 🧩  Component Usage
+
+### 🃏 Card Component
+
+```tsx
+import Card from '../components/common/Card';
+
+<Card
+  title="Luxury Beach House"
+  description="Oceanfront property with stunning views"
+  location="Miami, FL"
+  price={300}
+  rating={4.9}
+  image="/assets/images/property.jpg"
+  onClick={() => handleCardClick('property-id')}
+/>
+
+### 🔘 Button Component
+
+```tsx
+import Button from '../components/common/Button';
+
+<Button
+  variant="primary"
+  size="lg"
+  onClick={handleClick}
+>
+  Book Now
+</Button>
+
+
+## 🎨 Styling Guidelines
+
+- Use Tailwind utility classes only — no custom CSS unless necessary
+- Mobile-first: always design for small screens first
+- Follow Tailwind's spacing, font, and color systems for consistency
+- Centralize colors and themes in `tailwind.config.js`
+
+---
+
+## 📝 Development Scripts
+
+```bash
+# Start dev server
+npm run dev
+
+# Build app
+# Build app
+npm run build
+
+# Start production server
+npm start
+
+# Lint files
+npm run lint
+
+# Type check
+npm run type-check
+
+
+## 🤝 Contributing
+
+1. **Fork** the repo
+2. **Create your branch**:
+   ```bash
+   git checkout -b feature/amazing-feature
+
+3. **Commit your changes**
+   ```bash
+   git commit -m 'Add some amazing feature'
+
+4. **Push to the branch**
+   ```bash
+   git push origin feature/amazing-feature
+
+5. **Open a Pull Request**
+
+## 📄 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 👥 Authors
+
+**ALX Student** – Initial work – [Kevin Odhiambo](https://github.com/manodhiambo)
+
+---
+
