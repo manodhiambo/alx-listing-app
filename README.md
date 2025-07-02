@@ -190,7 +190,19 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 
 ## 👥 Authors
 
-**ALX Student** – Initial work – [Kevin Odhiambo](https://github.com/manodhiambo)
+**ALX Student** – Initial work – [Your GitHub Profile](https://github.com/your-username)
 
 ---
+
+## 🙏 Acknowledgments
+
+- **ALX Software Engineering Program**
+- **Next.js** team for the amazing framework  
+- **Tailwind CSS** team for the utility-first CSS approach  
+- **The React community** for continuous innovation
+
+---
+
+> Built with ❤️ as part of the **ALX Software Engineering Program**
+
 
