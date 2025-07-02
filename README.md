@@ -37,3 +37,38 @@ alx-listing-app/
 ├── next.config.js # Next.js configuration
 └── package.json # Project dependencies and scripts
 
+
+### Directory Purpose
+
+- **`components/common/`**: Reusable UI components used throughout the app
+- **`interfaces/`**: Type definitions for props, models, etc.
+- **`constants/`**: Static values like configuration, enums, API URLs
+- **`public/assets/`**: Static files like images and icons
+
+## 🛠️ Technologies Used
+
+- [Next.js 13+](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
+- [React](https://reactjs.org/)
+
+## 📋 Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js 16+**
+- **npm** or **yarn**
+- **VS Code** with the following extensions:
+  - TypeScript
+  - TailwindCSS IntelliSense
+  - ESLint
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/alx-listing-app.git
+cd alx-listing-app
+
