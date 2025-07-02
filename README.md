@@ -68,7 +68,6 @@ Make sure you have the following installed:
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/alx-listing-app.git
 cd alx-listing-app
 
@@ -109,7 +108,6 @@ yarn dev
 
 ### 🃏 Card Component
 
-```tsx
 import Card from '../components/common/Card';
 
 <Card
@@ -124,7 +122,6 @@ import Card from '../components/common/Card';
 
 ### 🔘 Button Component
 
-```tsx
 import Button from '../components/common/Button';
 
 <Button
@@ -169,15 +166,15 @@ npm run type-check
 
 1. **Fork** the repo
 2. **Create your branch**:
-   ```bash
+   bash
    git checkout -b feature/amazing-feature
 
 3. **Commit your changes**
-   ```bash
+   bash
    git commit -m 'Add some amazing feature'
 
 4. **Push to the branch**
-   ```bash
+   bash
    git push origin feature/amazing-feature
 
 5. **Open a Pull Request**
@@ -190,7 +187,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 
 ## 👥 Authors
 
-**ALX Student** – Initial work – [Your GitHub Profile](https://github.com/your-username)
+** ALX Student ** – Initial work – [Kevin Odhiambo](https://github.com/manodhiambo)
 
 ---
 
